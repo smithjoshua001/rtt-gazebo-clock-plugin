@@ -42,6 +42,7 @@ include_directories(include
   ${Boost_INCLUDE_DIR}
   ${GAZEBO_INCLUDE_DIRS}
   ${USE_OROCOS_INCLUDE_DIRS}
+  ${OROCOS-RTT_INCLUDE_DIRS}
   )
 
 orocos_use_package( ocl-taskbrowser REQUIRED )
